@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+/* #nav{
+    height: 80px;
+} */
+.navbar-brand{
+    font-family: 'Nova Round', cursive;
+}
+#subscribe_btn{
+    background-color: #00ff62;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subscribe_btn :hover{
+    background-color: rgb(255, 0, 0);
+}
+#subscribe_btn :click{
+    background-color: #00ff62;
+}
+section{
+    padding: 2 rem 9%;
+}
+.bg{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+    min-height: 100vh;
+}
+.bg .content{
+    text-align: center;
+}
+.bg .content h3{
+    font-size: 4.5rem;
+    color: white;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+
+}
+.bg .content h2{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+
+}
+.bg .video_container video{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+#heading{
+    margin-top: 40px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.latest_blogs #heading h1{
+    color: #00ff62;
+}
+p{
+    text-align: center;
+}
+.col :hover{
+    box-shadow: 4px 3px  6px ;
+}
+.col img :hover{
+    box-shadow: none;
+}

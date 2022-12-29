@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlog</title>
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <link rel="stylesheet" href="Travel_Vlog.css">
+     
+</head>
+<body>
+    <!-- header  -->
+    <nav class="navbar navbar-expand-lg" id="nav" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3 me-5" href="#">The Travellers</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2  mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 col-2 mx-auto ">
+                <!-- Button trigger modal -->
+                <button type="button" id="subscribe_btn" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Subscribe!
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Enter Your Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    <!-- /header -->
+    <!-- bg wit qoute -->
+    <section class="bg">
+        <div class="content">
+            <h3>IT'S NOT ABOUT THE DESTINATION</h3>
+            <h2>IT'S ABOUT THE <SPAN>JOURNEY</SPAN></h2>
+
+        </div>
+        <div class="video_container">
+            <video src="./images/bg-bloge-task_video.mp4" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- /bg wit qoute -->
+    <!-- LATEST BLOG POSTS -->
+    <div class="latest_blogs container">
+        <div id="heading" class="container text-center">
+            <h1>LATEST BLOG POSTS</h1>
+            <hr>
+        </div>
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/latest_blogs_1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Budget Friendly Places  To Visit In 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/laest_blogs_2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Kerala God's Own Country</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/laest_blogs_31.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Learn how I use travel reward credit cards to book free flights and hotels around the world</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- LATEST BLOG POSTS -->
+
+    <!-- TOP DESTINATIONS -->
+    <div class="latest_blogs container">
+        <div id="heading" class="container text-center">
+            <h1>TOP DESTINATIONS</h1>
+            <hr>
+        </div>
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/paris.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Budget Friendly Places  To Visit In 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/laest_blogs_2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Kerala God's Own Country</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./images/laest_blogs_31.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Learn how I use travel reward credit cards to book free flights and hotels around the world</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- TOP DESTINATIONS -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">Thetravellers.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
