@@ -65,9 +65,6 @@ object-fit: cover;
 p{
     text-align: center;
 }
-.col :hover{
+.card:hover{
     box-shadow: 4px 3px  6px ;
-}
-.col img :hover{
-    box-shadow: none;
 }
